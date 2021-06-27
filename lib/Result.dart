@@ -9,7 +9,7 @@ class Result extends StatelessWidget {
      String resultText = '';
      if (totalScore >= 100){
        resultText = 'Outstanding\nYou scored : ${totalScore}';
-     }else if (totalScore >50) {
+     }else if (totalScore >=50) {
        resultText = 'Good\nYou scored : ${totalScore}';
      }
      else if (totalScore < 50) {
