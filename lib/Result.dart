@@ -27,7 +27,7 @@ class Result extends StatelessWidget {
           padding: EdgeInsets.all(16),
           width: double.infinity,
           child: Text(result, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),textAlign: TextAlign.center,),
-        ), 
+        ),
         
         TextButton(onPressed: resetHandler, child: Text('Reset'))
       ],
